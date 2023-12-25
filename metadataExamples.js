@@ -13,6 +13,9 @@ const removeMetadataProperties = require('./Examples/BasicUsage/removeMetadataPr
 const setMetadataProperties = require('./Examples/BasicUsage/setMetadataProperties')
 
 const addingMetadata = require('./Examples/AdvancedUsage/addingMetadata')
+const updatingMetadata = require('./Examples/AdvancedUsage/updatingMetadata')
+const removingMetadata = require('./Examples/AdvancedUsage/removingMetadata')
+const extractingMetadata = require('./Examples/AdvancedUsage/extractingMetadata')
 const exportingMetadataProperties = require('./Examples/AdvancedUsage/exportingMetadataProperties')
 const gettingKnownPropertyDescriptors = require('./Examples/AdvancedUsage/gettingKnownPropertyDescriptors')
 const workingWithInterpretedValues = require('./Examples/AdvancedUsage/workingWithInterpretedValues')
@@ -92,6 +95,18 @@ class MetadataExamples {
 
   async addingMetadata() {
     return addingMetadata(this);
+  }
+
+  async updatingMetadata() {
+    return updatingMetadata(this);
+  }
+
+  async removingMetadata() {
+    return removingMetadata(this);
+  }
+
+  async extractingMetadata() {
+    return extractingMetadata(this);
   }
   
   async setMeteredLicense() {

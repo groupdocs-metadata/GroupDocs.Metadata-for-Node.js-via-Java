@@ -9,27 +9,30 @@ const examples = require('./metadataExamples')
 
       // Basic usage
 
-      examples.cleanMetadata(),
-      examples.findMetadataProperties(),
-      examples.getDocumentInfo(),
-      examples.removeMetadataProperties(),
-      examples.setMetadataProperties(),
+      //examples.cleanMetadata(),
+      //examples.findMetadataProperties(),
+      //examples.getDocumentInfo(),
+      //examples.removeMetadataProperties(),
+      //examples.setMetadataProperties(),
 
 
       //Advanced usage
 
-      examples.addingMetadata(),
-      examples.exportingMetadataProperties(),
-      examples.gettingKnownPropertyDescriptors(),
-      examples.workingWithInterpretedValues(),
-      examples.extractUsingType(),
-      examples.loadFromLocalDisk(),
-      examples.readBasicExifProperties(),
-      examples.removeExifMetadata(),
-      examples.readBasicIptcProperties(),
-      examples.removeIptcMetadata(),
-      examples.readXmpProperties(),
-      examples.removeXmpMetadata(),
+      //examples.addingMetadata(),
+      //examples.updatingMetadata(),
+      //examples.removingMetadata(),
+      //examples.extractingMetadata(),
+      //examples.exportingMetadataProperties(),
+      //examples.gettingKnownPropertyDescriptors(),
+      //examples.workingWithInterpretedValues(),
+      //examples.extractUsingType(),
+      //examples.loadFromLocalDisk(),
+      //examples.readBasicExifProperties(),
+      //examples.removeExifMetadata(),
+      //examples.readBasicIptcProperties(),
+      //examples.removeIptcMetadata(),
+      //examples.readXmpProperties(),
+      //examples.removeXmpMetadata(),
       
     ])
     console.log('The end of process.')

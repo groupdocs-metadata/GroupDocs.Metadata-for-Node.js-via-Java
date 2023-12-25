@@ -6,7 +6,6 @@ const Constants = require('../../constants')
 async function workingWithInterpretedValues(groupdocs) {
   try {
     const metadata = new groupdocs.metadata.Metadata(Constants.InputDoc);
-    var root = metadata.getRootPackageGeneric();
     var properties = metadata.findProperties(new groupdocs.metadata.OfTypeSpecification(groupdocs.metadata.MetadataPropertyType.Integer));
       for(var i=0;i<properties.getCount(); i++){
         var property = properties.get_Item(i);
