@@ -8,7 +8,7 @@ const OutputPath = path.join(ResourcesPath, './SampleFiles/Output/');
 
 module.exports = {
     resourcesPath: ResourcesPath,
-    LicensePath: (process.env.LIC_METADATA_VALID + '/GroupDocs.Metadata.Product.Family.lic'),
+    LicensePath: (process.env.LIC_METADATA_VALID + '/GroupDocs.Metadata.NodejsviaJavaUp.lic'),
     inputPath : InputPath,
     outputPath : OutputPath,
 
