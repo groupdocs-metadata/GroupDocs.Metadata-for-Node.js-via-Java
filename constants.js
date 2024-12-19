@@ -8,7 +8,7 @@ const OutputPath = path.join(ResourcesPath, './SampleFiles/Output/');
 
 module.exports = {
     resourcesPath: ResourcesPath,
-    LicensePath: (),
+    LicensePath: '',
     inputPath : InputPath,
     outputPath : OutputPath,
 

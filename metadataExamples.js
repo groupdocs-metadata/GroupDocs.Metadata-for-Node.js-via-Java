@@ -1,4 +1,4 @@
-const metadata = require('./groupdocs.metadata')
+const metadata = require('@groupdocs/groupdocs.metadata')
 
 // Constant Variables 
 const Constants = require('./constants')
@@ -32,7 +32,14 @@ class MetadataExamples {
   constructor() {
     // Initialize the License
     let lic = Constants.LicensePath
-    if (!lic || !lic.endsWith('.lic')) console.log('License is not found, continuing with demo version!')
+    if (!lic || !lic.endsWith('.lic')) 
+    {
+       console.log('License not found. Continuing in trial mode!')
+       console.log('To run the product in licensed mode, please set the license path:')
+       console.log('Initialize the `LicensePath` variable located in the `constants.js` file.')
+       console.log('If you don’t have a license yet, you can purchase one at https://purchase.groupdocs.com')
+       console.log('You may obtain a temporary license by visiting: https://purchase.groupdocs.com/temporary-license/')
+    }
     else this.licensePath = lic
 
     // Initialize the model
