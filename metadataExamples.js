@@ -1,4 +1,4 @@
-const metadata = require('./groupdocs.metadata')
+const metadata = require('./node_modules/@groupdocs/groupdocs.metadata/lib/groupdocs.metadata')
 
 // Constant Variables 
 const Constants = require('./constants')
