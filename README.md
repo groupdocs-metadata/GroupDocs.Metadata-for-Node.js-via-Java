@@ -22,6 +22,12 @@ From the command line:
 
 	npm i @groupdocs/groupdocs.metadata
 
+### Run Examples
+
+Run runExamles.js:
+
+	node runExamples.js
+
 
 ## Get Document Info
 
